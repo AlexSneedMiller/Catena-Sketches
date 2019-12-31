@@ -5,31 +5,7 @@ This sketch is used for the Ithaca power project and other AC power management a
 <!-- markdownlint-disable MD004 MD033 -->
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-<!-- TOC depthFrom:2 -->
-
-- [Clone this repository into a suitable directory on your system](#clone-this-repository-into-a-suitable-directory-on-your-system)
-- [Install the MCCI SAMD board support library](#install-the-mcci-samd-board-support-library)
-- [Select your desired band](#select-your-desired-band)
-- [Installing the required libraries](#installing-the-required-libraries)
-	- [List of required libraries](#list-of-required-libraries)
-- [Build and Download](#build-and-download)
-- [Load the sketch into the Catena](#load-the-sketch-into-the-catena)
-- [Provision your Catena 4450](#provision-your-catena-4450)
-	- [Check platform provisioning](#check-platform-provisioning)
-	- [Platform Provisioning](#platform-provisioning)
-	- [LoRaWAN Provisioning](#lorawan-provisioning)
-		- [Preparing the network for your device](#preparing-the-network-for-your-device)
-		- [Preparing your device for the network](#preparing-your-device-for-the-network)
-	- [Changing registration](#changing-registration)
-	- [Starting Over](#starting-over)
-- [Notes](#notes)
-	- [Getting Started with The Things Network](#getting-started-with-the-things-network)
-	- [Data Format](#data-format)
-	- [Unplugging the USB Cable while running on batteries](#unplugging-the-usb-cable-while-running-on-batteries)
-	- [Deep sleep and USB](#deep-sleep-and-usb)
-	- [gitboot.sh and the other sketches](#gitbootsh-and-the-other-sketches)
-
-<!-- /TOC -->
+<!-- TOC depthFrom:2 -->autoauto- [Clone this repository into a suitable directory on your system](#clone-this-repository-into-a-suitable-directory-on-your-system)auto- [Install the MCCI SAMD board support library](#install-the-mcci-samd-board-support-library)auto- [Select your desired band](#select-your-desired-band)auto- [Installing the required libraries](#installing-the-required-libraries)auto  - [List of required libraries](#list-of-required-libraries)auto- [Build and Download](#build-and-download)auto- [Load the sketch into the Catena](#load-the-sketch-into-the-catena)auto- [Provision your Catena 4450](#provision-your-catena-4450)auto  - [Check platform provisioning](#check-platform-provisioning)auto  - [Platform Provisioning](#platform-provisioning)auto  - [LoRaWAN Provisioning](#lorawan-provisioning)auto    - [Preparing the network for your device](#preparing-the-network-for-your-device)auto    - [Preparing your device for the network](#preparing-your-device-for-the-network)auto  - [Changing registration](#changing-registration)auto  - [Starting Over](#starting-over)auto- [Notes](#notes)auto  - [Getting Started with The Things Network](#getting-started-with-the-things-network)auto  - [Data Format](#data-format)auto  - [Unplugging the USB Cable while running on batteries](#unplugging-the-usb-cable-while-running-on-batteries)auto  - [Deep sleep and USB](#deep-sleep-and-usb)auto  - [gitboot.sh and the other sketches](#gitbootsh-and-the-other-sketches)autoauto<!-- /TOC -->
 <!-- markdownlint-restore -->
 
 It is designed for use with the [Catena 4450](https://github.com/mcci-catena/HW-Designs/tree/master/kicad/Catena-4450) in conjunction with the [Adafruit Feather M0 LoRa](https://www.adafruit.com/product/3178). In order to use this code, you must do several things:
@@ -325,4 +301,4 @@ The workaround is to "double tap" the reset button. As with any Feather M0, doub
 
 ### gitboot.sh and the other sketches
 
-The sketches in other directories in this tree are for engineering use at MCCI. The `git-repos.dat` file in this directory does not necessarily install all the required libraries needed for building the other directories. However, all the libraries should be available from [github.com/mcci-catena](https://github.com/mcci-catena/); and we are working on getting `git-repos.dat` files in every sub-directory.
+The sketches in other directories in this tree are for engineering use at MCCI. The `git-repos.dat` file in this directory does not necessarily install all the required libraries needed for building the other directories. However, all the libraries should be available from https://github.com/mcci-catena/; and we are working on getting `git-repos.dat` files in every sub-directory.
