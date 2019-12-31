@@ -304,7 +304,7 @@ If all the typing in [Changing registration](#changing-registration) is too pain
 
 - `fram reset hard`
 
-Then reset your Catena, and return to [Provision your Catena 4612](##platform-provisioning).
+Then reset your Catena, and return to [Provision your Catena 4612](#platform-provisioning).
 
 ## Notes
 
